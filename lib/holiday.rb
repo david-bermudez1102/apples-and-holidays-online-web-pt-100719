@@ -60,7 +60,7 @@ def all_supplies_in_holidays(holiday_hash)
     HEREDOC
     holiday.each {|value,supplies|
       string_text << <<~HEREDOC
-      #{value}: #{supplies.join(", ")}
+      #{value.capitalize}: #{supplies.join(", ")}
       HEREDOC
     }
   }
