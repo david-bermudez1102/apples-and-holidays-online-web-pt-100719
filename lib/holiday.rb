@@ -66,7 +66,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-puts string_text
+puts string_text.chomp
 end
 
 def all_holidays_with_bbq(holiday_hash)
