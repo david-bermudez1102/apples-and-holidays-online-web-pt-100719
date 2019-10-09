@@ -58,6 +58,14 @@ def all_supplies_in_holidays(holiday_hash)
     string_text << <<~HEREDOC
     #{season}:
     HEREDOC
+    holiday.each {|value,supplies|
+      string_text << <<~HEREDOC
+      #{value}:
+      HEREDOC
+      supplies.each {|supply|
+        winter_supplies << supply
+      }
+    }
   }
   # iterate through holiday_hash and print items such that your readout resembles:
   # Winter:
