@@ -56,7 +56,7 @@ def all_supplies_in_holidays(holiday_hash)
   string_text = ""
   holiday_hash.each { |season,holiday|
     string_text << <<~HEREDOC
-    #{season}:
+    #{season.capitalize}:
     HEREDOC
     holiday.each {|value,supplies|
       string_text << <<~HEREDOC
