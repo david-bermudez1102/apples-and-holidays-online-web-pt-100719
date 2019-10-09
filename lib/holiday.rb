@@ -55,8 +55,8 @@ def all_supplies_in_holidays(holiday_hash)
   # }
   string_text = ""
   holiday_hash.each { |season,holiday|
-    <<-HEREDOC
-    #{season}:
+    puts <<-HEREDOC
+     #{season}:
       #{holiday}
 
     HEREDOC
