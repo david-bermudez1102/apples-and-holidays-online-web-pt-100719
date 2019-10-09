@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-
+string_text
 end
 
 def all_holidays_with_bbq(holiday_hash)
