@@ -58,5 +58,5 @@ holidays_with_bbqs = []
       }
   }
   holidays_with_bbqs
-  
+
 end
