@@ -52,7 +52,7 @@ holidays_with_bbqs = []
 
   holiday_hash.each {|season,holiday|
       holiday.each {|value,supplies|
-        if(supplies.contain?("BBQ"))
+        if(supplies.contains?("BBQ"))
           holidays_with_bbqs << value
         end
       }
